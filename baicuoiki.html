@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>web ban ca</title>
+        <link rel="stylesheet" href="baicuoiki.css">
+        <link rel="stylesheet" href="baicuoiki2.css">
+    </head>
+    <body>
+    
+    </style>
+     <div class="container">
+        <style>
+            .menu {
+                margin-left: 30px;
+            }
+            ul#main-menu a {
+                display: block;
+                font-size: 20px;
+                text-transform: uppercase;
+                font-weight: bold;
+                color: #333;
+                position: relative;
+            }
+            ul#main-menu a::after {
+                content: "";
+                height: 5px;
+                width: 0px;
+                background-color: tomato;
+                position: absolute;
+                bottom: 0px;
+                left: 0em;
+                transition: all 0.5s ease-in-out;
+            }
+            ul#main-menu a:hover::after {
+                width: 50%;
+                transform: translateX(100%);
+            }
+        </style>
+        
+        <nav> <!-- thanh menu và tim kiếm -->
+            <div class="menu">
+                <ul id="main-menu">
+                    <li><a href="#">lọc</a></li>
+                    <li><a href="#">toàn quốc</a></li>
+                    <li><a href="#">loại cá</a></li>
+                    <li><a href="#">giá bán</a></li>
+                    <li><a href="#">vận chuyển</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input type="search" placeholder="search...">
+                <button class="nut-tim-kiem">tìm kiếm</button>
+            </div>
+        </nav>
+        <div class="slidershow">
+            <div class="slides">
+                <input type="radio" name="bottom" id="bottom_1" checked>
+                <input type="radio" name="bottom" id="bottom_2">
+                <input type="radio" name="bottom" id="bottom_3">
+                <input type="radio" name="bottom" id="bottom_4">
+                <input type="radio" name="bottom" id="bottom_5">
+                <div class="slide s1">
+                    <img src="anh/quanao1.jpg">
+                </div>
+                <div class="slide">
+                    <img src="anh/quanao2.png">
+                </div>
+                <div class="slide">
+                    <img src="anh/quanao3.jpg">
+                </div>
+                <div class="slide">
+                    <img src="anh/quanao4.jpg">
+                </div>
+                <div class="slide">
+                    <img src="anh/quâno7.jpg">
+                </div>
+            </div>
+            <div class="navigation">
+                <label for="bottom_1" class="bar"></label>
+                <label for="bottom_2" class="bar"></label>
+                <label for="bottom_3" class="bar"></label>
+                <label for="bottom_4" class="bar"></label>
+                <label for="bottom_5" class="bar"></label>
+            </div>
+        </div>
+        <div class="article">
+            <h3>tin túc học</h3>
+            <div class="newlist">
+                <div class="list">
+                    <h4>list</h4>
+                </div>
+                <div class="newitem">
+                    <div class="cpu">
+                        <div class="product-item">
+                            <div class="product-top">
+                                <a href="" class="product-thumb">
+                                    <img width="320px" height="130px" src="anh/quanao1.jpg" alt="">
+                                </a>
+                                <a href="" class="buy-now">Mua Ngay</a>
+                                <!-- mua ngay -->
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-cat">BAGS</a>
+                                <a href="" class="product-name">tên quần áo</a>
+                                <div class="product-price">$29</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cpu">
+                        <div class="product-item">
+                            <div class="product-top">
+                                <a href="" class="product-thumb">
+                                    <img width="320px" height="130px" src="anh/quanao2.png" alt="">
+                                </a>
+                                <a href="" class="buy-now">Mua Ngay</a>
+                                <!-- mua ngay -->
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-cat">BAGS</a>
+                                <a href="" class="product-name">tên quần áo</a>
+                                <div class="product-price">$29</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="newitem">
+                    <div class="cpu">
+                        <div class="product-item">
+                            <div class="product-top">
+                                <a href="" class="product-thumb">
+                                    <img width="320px" height="130px" src="anh/quanao3.jpg" alt="">
+                                </a>
+                                <a href="" class="buy-now">Mua Ngay</a>
+                                <!-- mua ngay -->
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-cat">BAGS</a>
+                                <a href="" class="product-name">tên quần áo</a>
+                                <div class="product-price">$29</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cpu">
+                        <div class="product-item">
+                            <div class="product-top">
+                                <a href="" class="product-thumb">
+                                    <img width="320px" height="130px" src="anh/quanao4.jpg" alt="">
+                                </a>
+                                <a href="" class="buy-now">Mua Ngay</a>
+                                <!-- mua ngay -->
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-cat">BAGS</a>
+                                <a href="" class="product-name">tên quần áo</a>
+                                <div class="product-price">$29</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="newitem" id="fix">
+                    <div class="cpu">
+                        <div class="product-item">
+                            <div class="product-top">
+                                <a href="" class="product-thumb">
+                                    <img width="320px" height="130px" src="anh/quâno5.jpg" alt="">
+                                </a>
+                                <a href="" class="buy-now">Mua Ngay</a>
+                                <!-- mua ngay -->
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-cat">BAGS</a>
+                                <a href="" class="product-name">tên quần áo</a>
+                                <div class="product-price">$29</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cpu">
+                        <div class="product-item">
+                            <div class="product-top">
+                                <a href="" class="product-thumb">
+                                    <img width="320px" height="130px" src="anh/quâno7.jpg" alt="">
+                                </a>
+                                <a href="" class="buy-now">Mua Ngay</a>
+                                <!-- mua ngay -->
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-cat">BAGS</a>
+                                <a href="" class="product-name">tên quần áo</a>
+                                <div class="product-price">$29</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- x nhân 2 -->
+            </div>
+            <div class="newlist">
+                <div class="list">
+                    <h4>list</h4>
+                </div>
+                <div class="newitem">
+                    <div class="cpu">
+                        <div class="product-item">
+                            <div class="product-top">
+                                <a href="" class="product-thumb">
+                                    <img width="320px" height="130px" src="anh/quâno8.jpg" alt="">
+                                </a>
+                                <a href="" class="buy-now">Mua Ngay</a>
+                                <!-- mua ngay -->
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-cat">BAGS</a>
+                                <a href="" class="product-name">tên quần áo</a>
+                                <div class="product-price">$29</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cpu">
+                        <div class="product-item">
+                            <div class="product-top">
+                                <a href="" class="product-thumb">
+                                    <img width="320px" height="130px" src="anh/quanao1.jpg" alt="">
+                                </a>
+                                <a href="" class="buy-now">Mua Ngay</a>
+                                <!-- mua ngay -->
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-cat">BAGS</a>
+                                <a href="" class="product-name">tên quần áo</a>
+                                <div class="product-price">$29</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="newitem">
+                    <div class="cpu">
+                        <div class="product-item">
+                            <div class="product-top">
+                                <a href="" class="product-thumb">
+                                    <img width="320px" height="130px" src="anh/quanao2.png" alt="">
+                                </a>
+                                <a href="" class="buy-now">Mua Ngay</a>
+                                <!-- mua ngay -->
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-cat">BAGS</a>
+                                <a href="" class="product-name">tên quần áo</a>
+                                <div class="product-price">$29</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cpu">
+                        <div class="product-item">
+                            <div class="product-top">
+                                <a href="" class="product-thumb">
+                                    <img width="320px" height="130px" src="anh/quanao3.jpg" alt="">
+                                </a>
+                                <a href="" class="buy-now">Mua Ngay</a>
+                                <!-- mua ngay -->
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-cat">BAGS</a>
+                                <a href="" class="product-name">tên quần áo</a>
+                                <div class="product-price">$29</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="newitem" id="fix">
+                    <div class="cpu">
+                        <div class="product-item">
+                            <div class="product-top">
+                                <a href="" class="product-thumb">
+                                    <img width="320px" height="130px" src="anh/quâno5.jpg" alt="">
+                                </a>
+                                <a href="" class="buy-now">Mua Ngay</a>
+                                <!-- mua ngay -->
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-cat">BAGS</a>
+                                <a href="" class="product-name">tên quần áo</a>
+                                <div class="product-price">$29</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cpu">
+                        <div class="product-item">
+                            <div class="product-top">
+                                <a href="" class="product-thumb">
+                                    <img width="320px" height="130px" src="anh/quâno7.jpg" alt="">
+                                </a>
+                                <a href="" class="buy-now">Mua Ngay</a>
+                                <!-- mua ngay -->
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-cat">BAGS</a>
+                                <a href="" class="product-name">tên quần áo</a>
+                                <div class="product-price">$29</div>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer2">
+                <div class="container">
+                    <div class="row-footer-top">
+                        <div class="cot-1">
+                            <p class="sum">“Đặt sự hài lòng của khách hàng là ưu tiên số 1 trong mọi suy nghĩ hành động của mình” là sứ mệnh, là triết lý, chiến lược.. luôn cùng YODY tiến bước”</p>
+                            <h4 class="title-menu">ĐĂNG KÝ NHẬN THÔNG TIN<i class="fa fa-plus hidden" aria-hidden="true"></i></h4>
+            
+                            <form action="https://gmail.us20.list-manage.com/subscribe/post?u=513a2612959b4bf34336105a5&id=b40a6d8345" method="post" id="mc-embedded-subscribe-form" class="mtSubcribeForm" name="mc-embedded-subscribe-form" target="_blank">      
+                                <input id="email" name="EMAIL" type="email" value="" class="input_newsletter subcribe-email form-control" placeholder="Nhập email đăng ký của bạn">
+                                <button type="submit" id="subscribe" name="subscribe" class="btn btn-subscribe">Đăng ký</button>
+                            </form>
+            
+                            <div class="social">
+                                <a href="https://www.facebook.com/YodyVietnam.Official" class="social-button" title=""  target="_blank" rel="nofollow"><img width="40" height="40" src="//bizweb.sapocdn.net/100/438/408/themes/863105/assets/social_1.png?1654064939584" alt=""/></a>
+                                <a href="https://www.youtube.com/channel/UCfRq5SO7a2fWyTzkGB-5t8g?view_as=subscriber" class="social-button" title=""  target="_blank" rel="nofollow"><img width="40" height="40" src="//bizweb.sapocdn.net/100/438/408/themes/863105/assets/social_2.png?1654064939584" alt=""/></a>
+                                <a href="https://www.instagram.com/yody.vn/" class="social-button" title=""  target="_blank" rel="nofollow"><img width="40" height="40" src="//bizweb.sapocdn.net/100/438/408/themes/863105/assets/social_3.png?1654064939584" alt=""/></a>
+                                <a href="https://zalo.me/3492644577837657321" class="social-button" title=""  target="_blank" rel="nofollow"><img width="40" height="40" src="//bizweb.sapocdn.net/100/438/408/themes/863105/assets/social_4.png?1654064939584" alt=""/></a>
+                                <a href="https://shopee.vn/yody.official" class="social-button" title=""  target="_blank" rel="nofollow"><img width="40" height="40" src="//bizweb.sapocdn.net/100/438/408/themes/863105/assets/social_5.png?1654064939584" alt=""/></a>
+                                <a href="https://www.lazada.vn/yody/" class="social-button" title=""  target="_blank" rel="nofollow"><img width="40" height="40" src="//bizweb.sapocdn.net/100/438/408/themes/863105/assets/social_6.png?1654064939584" alt=""/></a>
+                                <a href="https://www.sendo.vn/thuong-hieu/yody/" class="social-button" title=""  target="_blank" rel="nofollow"><img width="40" height="40" src="//bizweb.sapocdn.net/100/438/408/themes/863105/assets/social_7.png?1654064939584" alt=""/></a>
+                                <a href="https://tiki.vn/cua-hang/yody-official-store" class="social-button" title=""  target="_blank" rel="nofollow"><img width="40" height="40" src="//bizweb.sapocdn.net/100/438/408/themes/863105/assets/social_8.png?1654064939584" alt=""/></a>
+                            </div>
+                        </div>
+                        <div class="cot-2">
+                            <h4 class="title-menu">Về Yody</h4>
+                            <ul class="list-menu">
+                                <li class="li_menu">Giới thiệu</li>
+                                <li class="li_menu">Liên hệ</li>
+                                <li class="li_menu">Tuyển dụng</li>
+                                <li class="li_menu">Tin tức</li>
+                                <li class="li_menu">Hệ thống cửa hàng</li>
+                            </ul>
+                        </div>
+                        <div class="cot-3">
+                            <h4 class="title-menu">HỖ TRỢ KHÁCH HÀNG </h4>
+                            <ul class="list-menu">
+                                <li class="li_menu">Hướng dẫn chọn size</li>
+                                <li class="li_menu">Chính sách khách hàng thân thiết</li>
+                                <li class="li_menu">Chính sách đổi/trả</li>
+                                <li class="li_menu">Chính sách bảo mật</li>
+                                <li class="li_menu">Thanh toán, giao nhận</li>
+                            </ul>
+                        </div>
+                        <div class="cot-4">
+                            <h4 class="title-menu">CÔNG TY CP THỜI TRANG YODY</h4>
+                            <ul class="list-menu">
+                                <li class="li_menu">Mã số thuế: 0801206940</li>
+                                <li class="li_menu">Địa chỉ: Đường An Định - Phường Việt Hoa - Thành phố Hải Dương - Hải Dương</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="phan-cuoi">
+                     <p>@ Bản quyền thuộc về All right reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
